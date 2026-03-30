@@ -1,0 +1,1 @@
+srun -Q --immediate=10 -w ailb-login-02 --partition=all_serial --account=sai2026 --gres=gpu:1 --time 60:00 --pty bash
